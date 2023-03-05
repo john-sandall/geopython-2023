@@ -17,6 +17,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.9.16"
 # Everything below here is alphabetically sorted
+pandas = "^1.5.3"
 
 [tool.poetry.dev-dependencies]
 # Everything below here is alphabetically sorted
@@ -56,7 +57,6 @@ line_length = 100
 default_section = "THIRDPARTY"
 known_first_party = ["geopython_2023"]
 sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
-add_imports = "from __future__ import annotations"
 
 [tool.pylint.MASTER]
 ignore-paths = [".git"]
@@ -72,7 +72,7 @@ max-statements = 89
 max-args = 22
 max-branches = 17
 # good-names = []
-# disable = []
+disable = ["missing-module-docstring"]
 logging-format-style = "new"
 
 ##############

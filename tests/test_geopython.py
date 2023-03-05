@@ -1,7 +1,5 @@
 """Example test."""
 
-from __future__ import annotations
-
 from geopython import __version__
 
 
