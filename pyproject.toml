@@ -24,6 +24,7 @@ loguru = "^0.6.0"
 openpyxl = "^3.1.1"
 pandas = "^1.5.3"
 shareplum = "^0.5.1"
+typer = "^0.7.0"
 
 [tool.poetry.dev-dependencies]
 # Everything below here is alphabetically sorted
