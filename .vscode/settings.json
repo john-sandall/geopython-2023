@@ -53,6 +53,7 @@
     // (see https://github.com/microsoft/vscode-python/wiki/AB-Experiments)
     "python.experiments.enabled": false,
     "cSpell.words": [
-        "shareplum"
+        "shareplum",
+        "xlsx"
     ],
 }

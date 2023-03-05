@@ -77,7 +77,7 @@ min-similarity-lines = 150
 max-statements = 89
 max-args = 22
 max-branches = 17
-good-names = ['f', 'df']
+good-names = ["df", "e", "f", "r"]
 disable = ["missing-module-docstring", "missing-function-docstring"]
 logging-format-style = "new"
 
