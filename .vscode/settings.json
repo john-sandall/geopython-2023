@@ -52,4 +52,7 @@
     // Disable VS Code experiments to ensure consistent experience across the team
     // (see https://github.com/microsoft/vscode-python/wiki/AB-Experiments)
     "python.experiments.enabled": false,
+    "cSpell.words": [
+        "shareplum"
+    ],
 }

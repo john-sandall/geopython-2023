@@ -18,6 +18,9 @@ packages = [
 python = "^3.9.16"
 # Everything below here is alphabetically sorted
 pandas = "^1.5.3"
+shareplum = "^0.5.1"
+ipython = "^8.11.0"
+jupyterlab = "^3.6.1"
 
 [tool.poetry.dev-dependencies]
 # Everything below here is alphabetically sorted
@@ -72,7 +75,7 @@ max-statements = 89
 max-args = 22
 max-branches = 17
 # good-names = []
-disable = ["missing-module-docstring"]
+disable = ["missing-module-docstring", "missing-function-docstring"]
 logging-format-style = "new"
 
 ##############
