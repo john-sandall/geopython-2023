@@ -9,9 +9,9 @@ authors = ["John Sandall <contact@coefficient.ai>"]
 license = "UNLICENSED"
 classifiers = ["Private :: Do Not Upload"]
 packages = [
-  { include = "geopython_2023", from = "geopython_2023" },
+  { include = "geopython", from = "geopython" },
   # Add more packages here, e.g.
-  # { include = "module_name", from = "geopython_2023" },
+  # { include = "module_name", from = "geopython" },
 ]
 
 [tool.poetry.dependencies]
@@ -55,7 +55,7 @@ target-version = ["py39"]
 profile = "black"
 line_length = 100
 default_section = "THIRDPARTY"
-known_first_party = ["geopython_2023"]
+known_first_party = ["geopython"]
 sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
 
 [tool.pylint.MASTER]
@@ -79,7 +79,7 @@ logging-format-style = "new"
 # 📣 Towncrier
 ##############
 [tool.towncrier]
-package = "geopython_2023"
+package = "geopython"
 package_dir = "."
 filename = "CHANGELOG.md"
 directory = ".changelog/"
