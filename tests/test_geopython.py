@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from geopython_2023 import __version__
+from geopython import __version__
 
 
 def test_version():
