@@ -22,4 +22,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Python script
+        env: # Or as an environment variable
+          SHAREPOINT_SITE_URL: ${{ secrets.SHAREPOINT_SITE_URL }}
+          SHAREPOINT_SITE_NAME: ${{ secrets.SHAREPOINT_SITE_NAME }}
+          SHAREPOINT_USERNAME: ${{ secrets.SHAREPOINT_USERNAME }}
+          SHAREPOINT_PASSWORD: ${{ secrets.SHAREPOINT_PASSWORD }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python -m geopython.sharepoint
