@@ -28,4 +28,4 @@ jobs:
           SHAREPOINT_USERNAME: ${{ secrets.SHAREPOINT_USERNAME }}
           SHAREPOINT_PASSWORD: ${{ secrets.SHAREPOINT_PASSWORD }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: python -m geopython.sharepoint ${{ github.event.client_payload.filename }}
+        run: python -m geopython.sharepoint "${{ github.event.client_payload.filename }}"
